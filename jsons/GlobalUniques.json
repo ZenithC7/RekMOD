@@ -2,6 +2,8 @@
     "name": "Global uniques",
     "uniques": [
         "[-75]% growth [in all cities] <when between [-10] and [-1] [Happiness]>",
+        "[-25]% growth [Your] <in cities with at least [30] [Population]>",
+        "Nullifies Growth [in this city] <in cities with at least [40] [Population]>",
         "Nullifies Growth [in all cities] <when below [-10] [Happiness]>",
         "[-50]% [Production] [in all cities] <when below [-10] [Happiness]>",
         "[-33]% Strength <for [All] units> <when below [-10] [Happiness]>",
@@ -24,9 +26,8 @@
 
         // "[+20]% [Production] [in cities connected via railroad]"
 
-        // something something unit supply
-
-        // Temporary "Needs actual support" uniques
+        "[-20]% Strength <on [Epic] game speed> <hidden from users>",
+        "[-40]% Strength <on [Marathon] game speed> <hidden from users>",
         "[+1 Faith] from every [Quarry] <with [1] to [6] neighboring [Rock-hewn church] tiles>",
         "[+1 Faith] from every [Quarry] <with [2] to [6] neighboring [Rock-hewn church] tiles>",
         "[+1 Faith] from every [Quarry] <with [3] to [6] neighboring [Rock-hewn church] tiles>",
