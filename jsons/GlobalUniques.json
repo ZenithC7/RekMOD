@@ -2,6 +2,8 @@
     "name": "Global uniques",
     "uniques": [
         "[-75]% growth [in all cities] <when between [-10] and [-1] [Happiness]>",
+        "[-25]% growth [Your] <in cities with at least [30] [Population]>",
+        "Nullifies Growth [in this city] <in cities with at least [40] [Population]>",
         "Nullifies Growth [in all cities] <when below [-10] [Happiness]>",
         "[-50]% [Production] [in all cities] <when below [-10] [Happiness]>",
         "[-33]% Strength <for [All] units> <when below [-10] [Happiness]>",

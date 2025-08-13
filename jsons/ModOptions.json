@@ -1,17 +1,24 @@
 {
-    "constants":
-    {
-        "maxLakeSize": 5,
-        "riverCountMultiplier": 0.015,
-        "religionLimitBase": 0,
-        "religionLimitMultiplier": 1,
-        "unitSupplyPerPopulation": 10,
-        "pantheonBase": 23,
-        "pantheonGrowth": 0,
-        "tributeGlobalModifier": 50,
-        "tributeLocalModifier": 150,
-        "scoreFromPopulation": 4,
-        "scoreFromWonders": 25
-    },
-    "isBaseRuleset": true
+        "isBaseRuleset": true,
+        "constants": {
+            "unitSupplyPerPopulation": 10,
+            "maxLakeSize": 5,
+            "riverCountMultiplier": 0.015,
+            "religionLimitBase": 0,
+            "religionLimitMultiplier": 1,
+            "pantheonBase": 23,
+            "pantheonGrowth": 0,
+            "tributeGlobalModifier": 50,
+            "tributeLocalModifier": 150,
+            "scoreFromPopulation": 4,
+            "scoreFromWonders": 25
+        },
+        "modUrl": "https://github.com/ravignir/RekMOD",
+        "author": "ravignir",
+        "lastUpdated": "2025-07-19T23:56:59Z",
+        "modSize": 7867,
+        "topics": [
+            "unciv-mod",
+            "unciv-mod-rulesets"
+        ]
 }

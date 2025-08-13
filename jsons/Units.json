@@ -670,18 +670,19 @@
         "unitType": "Siege",
         "movement": 2,
         "strength": 7,
-        "rangedStrength": 8,
+        "rangedStrength": 9,
         "cost": 75,
         "requiredTech": "Mathematics",
         "obsoleteTech": "Physics",
         "upgradesTo": "Trebuchet",
         "promotions": ["Indirect Fire"],
         "uniques": [
-            "[+200]% Strength <vs cities> <when attacking>",
+            "[+300]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
             "Must set up to ranged attack",
             "[-1] Sight",
-            "Never appears as a Barbarian unit"
+            "Never appears as a Barbarian unit",
+            "[-33]% Strength <vs [All] units>"
         ],
         "hurryCostModifier": 20,
         "attackSound": "throw"
@@ -692,16 +693,17 @@
         "uniqueTo": "Assyria",
         "replaces": "Catapult",
         "movement": 2,
-        "strength": 12,
+        "strength": 13,
         "cost": 75,
         "requiredTech": "Mathematics",
         "obsoleteTech": "Physics",
         "upgradesTo": "Trebuchet",
         "promotions": ["Cover I", "Extra Sight"],
         "uniques": [
-            "[+200]% Strength <vs cities> <when attacking>",
+            "[+300]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
-            "Can only attack [City] units"
+            "Can only attack [City] units",
+            "[-33]% Strength <vs [All] units>"
         ],
         "hurryCostModifier": 20,
         "attackSound": "metalhit"
@@ -713,16 +715,17 @@
         "uniqueTo": "Rome",
         "movement": 2,
         "strength": 8,
-        "rangedStrength": 10,
+        "rangedStrength": 11,
         "cost": 75,
         "requiredTech": "Mathematics",
         "obsoleteTech": "Physics",
         "upgradesTo": "Trebuchet",
         "promotions": ["Indirect Fire"],
         "uniques": [
-            "[+200]% Strength <vs cities> <when attacking>",
+            "[+300]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
-            "[-1] Sight"
+            "[-1] Sight",
+            "[-33]% Strength <vs [All] units>"
         ],
         "hurryCostModifier": 20,
         "attackSound": "throw"
@@ -1180,7 +1183,7 @@
         "requiredResource": "Iron",
         "hurryCostModifier": 20,
         "uniques": [
-            "Ignore terrain cost",
+            "Ignores terrain cost",
             "[+33]% Strength <during a Golden Age>"
         ],
         "attackSound": "metalhit"
@@ -1303,18 +1306,19 @@
         "unitType": "Siege",
         "movement": 2,
         "strength": 12,
-        "rangedStrength": 14,
+        "rangedStrength": 15,
         "cost": 120,
         "requiredTech": "Physics",
         "obsoleteTech": "Chemistry",
         "upgradesTo": "Cannon",
         "promotions": ["Indirect Fire"],
         "uniques": [
-            "[+200]% Strength <vs cities> <when attacking>",
+            "[+250]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
             "Must set up to ranged attack",
             "[-1] Sight",
-            "Never appears as a Barbarian unit"
+            "Never appears as a Barbarian unit",
+            "[-33]% Strength <vs [All] units>"
         ],
         "attackSound": "throw"
     },
@@ -1332,10 +1336,11 @@
         "upgradesTo": "Cannon",
         "promotions": ["Indirect Fire"],
         "uniques": [
-            "[+100]% Strength <vs cities> <when attacking>",
+            "[+125]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
             "Must set up to ranged attack",
-            "[-10]% Strength for enemy [Military] units in adjacent [All] tiles"
+            "[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+            "[-33]% Strength <vs [All] units>"
         ],
         "attackSound": "throw"
     },
@@ -1354,7 +1359,7 @@
         "promotions": ["Indirect Fire"],
         "uniques": [
             "No defensive terrain bonus",
-            "Must set up to ranged attack"
+            "Must set up to ranged attack",
         ],
         "attackSound": "throw"
     },
@@ -1372,7 +1377,7 @@
         ],
         "uniques": [
             "Earn [200]% of killed [Military] unit's [Strength] as [Gold]",
-            "Only available <in cities with a [Reislauder Post]>",
+            "Only available <in cities with a [Reislaufer Post]>",
             "Cannot be purchased"
         ],
         "attackSound": "metalhit"
@@ -1833,19 +1838,20 @@
         "name": "Cannon",
         "unitType": "Siege",
         "movement": 2,
-        "strength": 14,
-        "rangedStrength": 20,
+        "strength": 16,
+        "rangedStrength": 26,
         "cost": 185,
         "requiredTech": "Chemistry",
         "promotions": ["Indirect Fire"],
         "upgradesTo": "Artillery",
         "obsoleteTech": "Dynamite",
         "uniques": [
-            "[+200]% Strength <vs cities> <when attacking>",
+            "[+150]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
             "Must set up to ranged attack",
             "[-1] Sight",
-            "Never appears as a Barbarian unit"
+            "Never appears as a Barbarian unit",
+            "[-40]% Strength <vs [All] units>"
         ],
         "attackSound": "cannon"
     },
@@ -1864,11 +1870,12 @@
         "upgradesTo": "Artillery",
         "obsoleteTech": "Dynamite",
         "uniques": [
-            "[+200]% Strength <vs cities> <when attacking>",
+            "[+175]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
             "Must set up to ranged attack",
             "[-1] Sight",
-            "Never appears as a Barbarian unit"
+            "Never appears as a Barbarian unit",
+            "[-33]% Strength <vs [All] units>"
         ],
         "attackSound": "cannon"
     },
@@ -2215,18 +2222,19 @@
         "unitType": "Siege",
         "movement": 2,
         "strength": 21,
-        "rangedStrength": 28,
+        "rangedStrength": 34,
         "range": 3,
         "cost": 320,
         "requiredTech": "Dynamite",
         "upgradesTo": "Rocket Artillery",
         "obsoleteTech": "Rocketry",
         "uniques": [
-            "[+200]% Strength <vs cities> <when attacking>",
+            "[+150]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
             "Must set up to ranged attack",
             "[-1] Sight",
-            "Never appears as a Barbarian unit"
+            "Never appears as a Barbarian unit",
+            "[-40]% Strength <vs [All] units>"
         ],
         "promotions": ["Indirect Fire"],
         "attackSound": "artillery"
@@ -2238,15 +2246,16 @@
         "unitType": "Siege",
         "movement": 2,
         "strength": 23,
-        "rangedStrength": 28,
+        "rangedStrength": 34,
         "range": 3,
         "cost": 320,
         "requiredTech": "Dynamite",
         "upgradesTo": "Rocket Artillery",
         "uniques": [
-            "[+200]% Strength <vs cities> <when attacking>",
+            "[+150]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
-            "[-1] Sight"
+            "[-1] Sight",
+            "[-33]% Strength <vs [All] units>"
         ],
         "promotions": ["Indirect Fire"],
         "attackSound": "artillery"
@@ -2717,10 +2726,11 @@
         "cost": 510,
         "requiredTech": "Rocketry",
         "uniques": [
-            "[+200]% Strength <vs cities> <when attacking>",
+            "[+175]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
             "[-1] Sight",
-            "Never appears as a Barbarian unit"
+            "Never appears as a Barbarian unit",
+            "[-33]% Strength <vs [All] units>"
         ],
         "promotions": [ "Indirect Fire"],
         "attackSound": "artillery"
