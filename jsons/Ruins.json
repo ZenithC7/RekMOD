@@ -40,10 +40,15 @@
         ]
         },
     {
+        "name": "barbCamps",
+        "notification": "You find evidence of Barbarian activity. Nearby Barbarian camps are revealed!",
+        "uniques": ["Reveal up to [All] [Barbarian encampment] within a [12] tile radius"]
+    },
+    {
         "name": "crudelyDrawnMap",
         "notification": "We have found a crudely-drawn map in the ruins!",
-        "uniques": ["Reveal up to [All] [All] within a [6] tile radius"]
-        },
+        "uniques": ["From a randomly chosen tile [6] tiles away from the ruins, reveal tiles up to [6] tiles away with [80]% chance"]
+    }
     {
         "name": "holySymbols",
         "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)",

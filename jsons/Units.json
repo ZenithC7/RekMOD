@@ -682,7 +682,7 @@
             "Must set up to ranged attack",
             "[-1] Sight",
             "Never appears as a Barbarian unit",
-            "[-33]% Strength <vs [All] units>"
+            "[-33]% Strength <vs [Melee] units>"
         ],
         "hurryCostModifier": 20,
         "attackSound": "throw"
@@ -703,7 +703,7 @@
             "[+300]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
             "Can only attack [City] units",
-            "[-33]% Strength <vs [All] units>"
+            "[-33]% Strength <vs [Melee] units>"
         ],
         "hurryCostModifier": 20,
         "attackSound": "metalhit"
@@ -725,7 +725,7 @@
             "[+300]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
             "[-1] Sight",
-            "[-33]% Strength <vs [All] units>"
+            "[-33]% Strength <vs [Melee] units>"
         ],
         "hurryCostModifier": 20,
         "attackSound": "throw"
@@ -1318,7 +1318,7 @@
             "Must set up to ranged attack",
             "[-1] Sight",
             "Never appears as a Barbarian unit",
-            "[-33]% Strength <vs [All] units>"
+            "[-33]% Strength <vs [Melee] units>"
         ],
         "attackSound": "throw"
     },
@@ -1340,7 +1340,7 @@
             "No defensive terrain bonus",
             "Must set up to ranged attack",
             "[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
-            "[-33]% Strength <vs [All] units>"
+            "[-33]% Strength <vs [Melee] units>"
         ],
         "attackSound": "throw"
     },
@@ -1851,7 +1851,7 @@
             "Must set up to ranged attack",
             "[-1] Sight",
             "Never appears as a Barbarian unit",
-            "[-40]% Strength <vs [All] units>"
+            "[-40]% Strength <vs [Melee] units>"
         ],
         "attackSound": "cannon"
     },
@@ -1875,7 +1875,7 @@
             "Must set up to ranged attack",
             "[-1] Sight",
             "Never appears as a Barbarian unit",
-            "[-33]% Strength <vs [All] units>"
+            "[-33]% Strength <vs [Melee] units>"
         ],
         "attackSound": "cannon"
     },
@@ -2234,7 +2234,7 @@
             "Must set up to ranged attack",
             "[-1] Sight",
             "Never appears as a Barbarian unit",
-            "[-40]% Strength <vs [All] units>"
+            "[-40]% Strength <vs [Melee] units>"
         ],
         "promotions": ["Indirect Fire"],
         "attackSound": "artillery"
@@ -2255,7 +2255,7 @@
             "[+150]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
             "[-1] Sight",
-            "[-33]% Strength <vs [All] units>"
+            "[-33]% Strength <vs [Melee] units>"
         ],
         "promotions": ["Indirect Fire"],
         "attackSound": "artillery"
@@ -2730,7 +2730,7 @@
             "No defensive terrain bonus",
             "[-1] Sight",
             "Never appears as a Barbarian unit",
-            "[-33]% Strength <vs [All] units>"
+            "[-33]% Strength <vs [Melee] units>"
         ],
         "promotions": [ "Indirect Fire"],
         "attackSound": "artillery"

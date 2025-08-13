@@ -2561,7 +2561,7 @@
     {
         "name": "Zoo",
         "cost": 180,
-        "happiness": 2,
+        "happiness": 3,
         "hurryCostModifier": 10,
         "maintenance": 2,
         "requiredBuilding": "Colosseum",
